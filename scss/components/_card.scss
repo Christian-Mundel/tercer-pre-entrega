@@ -1,0 +1,22 @@
+$color: blue;
+
+.card-title{
+
+    @if $color == red{
+        text-decoration: underline;
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    @else if $color ==black{
+        text-decoration: underline;
+        font-size: 3rem;
+        text-align: justify;
+    }
+
+    @else {
+        text-decoration: underline;
+        font-size: 2rem;
+        text-align: center;
+    }
+}

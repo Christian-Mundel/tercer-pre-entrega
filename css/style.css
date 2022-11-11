@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1 {
+  color: rgb(235, 12, 243);
+}
+
+.card-title {
+  text-decoration: underline;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.navbar-nav .nav-link.active {
+  text-align: end;
+  color: rgb(255, 0, 106);
+  padding: 8px;
+}
+
+.btn-azul:hover {
+  background-color: rgb(235, 235, 245);
+  font-size: 20px;
+  width: 150px;
+  height: 45px;
+  box-shadow: 10px 10px 10px blue;
+  color: blue;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
